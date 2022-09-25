@@ -20,13 +20,6 @@ const markup = gallery.map(({preview, original, description}) => {
 return markup;
 };
 
-galleryContainer.addEventListener('click', onOpenModal);
-
-function onOpenModal(evt){
-  evt.preventDefault();
-  console.log(evt);
   lightbox = new SimpleLightbox('.gallery a', {captions: true, captionsData: 'alt', 
   captionPosition:'bottom', captionDelay: 250, showCounter: false});
   lightbox.on('closed.simplelightbox', evt => lightbox.destroy(evt));
-
-}
