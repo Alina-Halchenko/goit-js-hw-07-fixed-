@@ -22,4 +22,4 @@ return markup;
 
   lightbox = new SimpleLightbox('.gallery a', {captions: true, captionsData: 'alt', 
   captionPosition:'bottom', captionDelay: 250, showCounter: false});
-  lightbox.on('closed.simplelightbox', evt => lightbox.destroy(evt));
+  // lightbox.on('closed.simplelightbox', evt => lightbox.destroy(evt));
