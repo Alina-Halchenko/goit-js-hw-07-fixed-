@@ -3,6 +3,8 @@
   --animation-duration: 250ms;
 }
 
+
+
 .gallery {
   display: grid;
   max-width: 1140px;
